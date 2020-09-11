@@ -339,11 +339,18 @@
                     </ul>
                 </div>
                 <div class="footer-third">
-                    <form action="textarea1.php" method="post">
-                        <p class="letsgo"><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ:</b></p>
-                        <p class="text-area"><textarea rows="2" cols="45" name="text"></textarea></p>
-                        <button><input type="submit" value="Подписаться"></button>
-                      </form>
+                    <form class="footer-form" action="textarea1.php" method="post">
+                        <div class="div-div">
+                            <p class="letsgo"><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ:</b></p>
+                            <textarea class="footer-text-area" rows="2" cols="45" name="text" placeholder="E-mail"></textarea>
+                        </div>
+                        <button class="button-subscribe">
+                            <span class="sibscribe-span">Подписаться</span>
+                            <svg class="telegram-icon">
+                                <use href="./images/sprite.svg#icon-telegram"></use>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
             </div>
         </footer>
