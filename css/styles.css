@@ -587,6 +587,7 @@ footer .letsgo {
 
 .footer-third .footer-text-area {
   margin-top: 20px;
+  width: 358px;
   height: 50px;
   resize: none;
   padding: 15px;
@@ -602,7 +603,7 @@ footer .letsgo {
   letter-spacing: 0.01em;
 
   background-color: #2F303A;
- 
+  color: #AFB1B8;
 
   text-align: left;
 }
