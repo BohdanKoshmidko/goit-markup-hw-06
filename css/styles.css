@@ -794,7 +794,7 @@ button {
 
   padding: 40px;
 
-  width: 650px;
+  width: 550px;
   background-color: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -836,6 +836,7 @@ text-align: start;
 
 .comment {
   padding: 12px;
+  resize: none;
 }
 
 .clients-form h2 {
@@ -872,6 +873,10 @@ text-align: start;
   padding-left: 42px;
 
   height: 40px;
+}
+
+.form-input:focus {
+  border: #2196F3;;
 }
 
 .form-icon {
