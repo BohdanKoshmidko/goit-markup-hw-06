@@ -642,6 +642,7 @@ footer .letsgo {
 
   display: flex;
   justify-content: center;
+  align-items: center;
 
   background-color: #2196F3;
   color: #FFFFFF;
